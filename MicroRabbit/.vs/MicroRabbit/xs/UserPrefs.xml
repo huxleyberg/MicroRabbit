@@ -1,0 +1,19 @@
+﻿<Properties GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MicroRabbit.Domain.Core/Events/Event.cs">
+    <Files>
+      <File FileName="MicroRabbit Status" />
+      <File FileName="MicroRabbit.Domain.Core/Bus/IEventBus.cs" Line="14" Column="37" />
+      <File FileName="MicroRabbit.Domain.Core/Bus/IEventHandler.cs" Line="12" Column="1" />
+      <File FileName="MicroRabbit.Domain.Core/Commands/Command.cs" Line="10" Column="38" />
+      <File FileName="MicroRabbit.Domain.Core/Events/Message.cs" Line="13" Column="42" />
+      <File FileName="MicroRabbit.Domain.Core/Events/Event.cs" Line="4" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Domain.MicroRabbit.Domain.Core FirstBuild="True" />
+</Properties>
