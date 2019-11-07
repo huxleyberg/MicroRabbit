@@ -1,0 +1,12 @@
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/bin/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.deps.json
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/bin/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/bin/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/bin/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/bin/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.csprojAssemblyReference.cache
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.csproj.CoreCompileInputs.cache
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.AssemblyInfoInputs.cache
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.AssemblyInfo.cs
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.csproj.CopyComplete
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.pdb

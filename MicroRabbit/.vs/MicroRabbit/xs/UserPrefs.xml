@@ -1,12 +1,13 @@
 ﻿<Properties GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MicroRabbit.Domain.Core/Events/Event.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MicroRabbit.Infra.Bus/RabbitMQBus.cs">
     <Files>
       <File FileName="MicroRabbit Status" />
-      <File FileName="MicroRabbit.Domain.Core/Bus/IEventBus.cs" Line="14" Column="37" />
-      <File FileName="MicroRabbit.Domain.Core/Bus/IEventHandler.cs" Line="12" Column="1" />
-      <File FileName="MicroRabbit.Domain.Core/Commands/Command.cs" Line="10" Column="38" />
+      <File FileName="MicroRabbit.Domain.Core/Bus/IEventBus.cs" Line="10" Column="56" />
+      <File FileName="MicroRabbit.Domain.Core/Bus/IEventHandler.cs" Line="6" Column="83" />
+      <File FileName="MicroRabbit.Domain.Core/Commands/Command.cs" Line="5" Column="44" />
       <File FileName="MicroRabbit.Domain.Core/Events/Message.cs" Line="13" Column="42" />
-      <File FileName="MicroRabbit.Domain.Core/Events/Event.cs" Line="4" Column="20" />
+      <File FileName="MicroRabbit.Domain.Core/Events/Event.cs" Line="7" Column="9" />
+      <File FileName="MicroRabbit.Infra.Bus/RabbitMQBus.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -14,6 +15,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Infra.Bus.MicroRabbit.Infra.Bus FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Domain.MicroRabbit.Domain.Core FirstBuild="True" />
 </Properties>
