@@ -252,10 +252,11 @@
   },
   "libraries": {
     "MediatR/7.0.0": {
-      "sha512": "YGFwy3pCM13K+s3nrSDjC/wP4AYSUt7+HLtgiPPRBe2bG1joeFdOq17YZ2Y1lc4lg+m9ew0dMcQHVn5yGH7uDA==",
+      "sha512": "sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
       "type": "package",
       "path": "mediatr/7.0.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net461/MediatR.dll",
         "lib/netstandard2.0/MediatR.dll",
@@ -734,10 +735,11 @@
       ]
     },
     "Newtonsoft.Json/12.0.2": {
-      "sha512": "mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
       "path": "newtonsoft.json/12.0.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -763,10 +765,11 @@
       ]
     },
     "RabbitMQ.Client/5.1.2": {
-      "sha512": "VOnK4THfjIRF3ZvRzHHgpyaqXBeehP/QA+hC1LyUh2zwt2Uygo5gcZYBaKyLzm+ABcWPr5flWsf1JmutV77gAw==",
+      "sha512": "Xhj+un0pw4N7h37SZWptxl/NEv7f1RLHwZhXjqzkCm3w3IdbFJh+HjVyPaciD848BUYLGoEQzadx90nShsbs4Q==",
       "type": "package",
       "path": "rabbitmq.client/5.1.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net451/RabbitMQ.Client.dll",
         "lib/net451/RabbitMQ.Client.xml",
@@ -804,19 +807,19 @@
       "projectName": "MicroRabbit.Infra.Bus",
       "projectPath": "/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj",
       "packagesPath": "/Users/chidi/.nuget/packages/",
-      "outputPath": "/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/obj",
+      "outputPath": "/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/chidi/.config/NuGet/NuGet.Config"
+        "/Users/chidi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
@@ -838,28 +841,34 @@
         "dependencies": {
           "MediatR": {
             "target": "Package",
-            "version": "7.0.0"
-          },
-          "RabbitMQ.Client": {
-            "target": "Package",
-            "version": "5.1.2"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "12.0.2"
+            "version": "[7.0.0, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.1.0",
+            "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.2, )"
+          },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[5.1.2, )"
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

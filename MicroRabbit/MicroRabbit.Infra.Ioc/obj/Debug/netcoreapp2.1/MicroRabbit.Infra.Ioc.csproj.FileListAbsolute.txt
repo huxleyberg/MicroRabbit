@@ -2,7 +2,6 @@
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.dll
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.pdb
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.csprojAssemblyReference.cache
-/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.csproj.CoreCompileInputs.cache
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.AssemblyInfoInputs.cache
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.AssemblyInfo.cs
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.dll
@@ -12,3 +11,10 @@
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.pdb
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.pdb
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.csproj.CopyComplete
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Application.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Application.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.csproj.CoreCompileInputs.cache

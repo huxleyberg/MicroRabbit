@@ -1,0 +1,9 @@
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Domain/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.deps.json
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Domain/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Domain/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.csprojAssemblyReference.cache
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.AssemblyInfoInputs.cache
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.AssemblyInfo.cs
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Domain/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.csproj.CoreCompileInputs.cache

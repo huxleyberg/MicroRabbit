@@ -1,5 +1,4 @@
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.csprojAssemblyReference.cache
-/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.csproj.CoreCompileInputs.cache
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.AssemblyInfoInputs.cache
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.AssemblyInfo.cs
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/bin/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.deps.json
@@ -7,3 +6,4 @@
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/bin/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.pdb
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.dll
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/obj/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.csproj.CoreCompileInputs.cache

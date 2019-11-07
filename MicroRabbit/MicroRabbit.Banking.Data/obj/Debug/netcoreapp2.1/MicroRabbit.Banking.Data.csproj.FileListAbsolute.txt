@@ -1,0 +1,14 @@
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.deps.json
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.csprojAssemblyReference.cache
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.AssemblyInfoInputs.cache
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.AssemblyInfo.cs
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.runtimeconfig.json
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.runtimeconfig.dev.json
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/bin/Debug/netcoreapp2.1/MicroRabbit.Banking.Domain.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.csproj.CopyComplete
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Banking.Data/obj/Debug/netcoreapp2.1/MicroRabbit.Banking.Data.csproj.CoreCompileInputs.cache

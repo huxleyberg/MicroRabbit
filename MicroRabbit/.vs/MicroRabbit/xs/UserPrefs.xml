@@ -1,7 +1,5 @@
 ﻿<Properties StartupConfiguration="{06700CC5-598B-40CD-9DE6-9796092BF1A5}|Default" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.ItemProperties.Microservices.Banking.Data.MicroRabbit.Banking.Data FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Microservices.Banking.Application.MicroRabbit.Banking.Application FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MicroRabbit.Banking.Api/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MicroRabbit.Banking.Api/Startup.cs">
     <Files>
       <File FileName="MicroRabbit Status" />
       <File FileName="MicroRabbit.Domain.Core/Bus/IEventBus.cs" Line="10" Column="56" />
@@ -10,9 +8,23 @@
       <File FileName="MicroRabbit.Domain.Core/Events/Message.cs" Line="13" Column="42" />
       <File FileName="MicroRabbit.Domain.Core/Events/Event.cs" Line="7" Column="9" />
       <File FileName="MicroRabbit.Infra.Bus/RabbitMQBus.cs" Line="127" Column="107" />
-      <File FileName="MicroRabbit.Infra.Ioc/DependencyContainer.cs" Line="14" Column="6" />
-      <File FileName="MicroRabbit.Banking.Api/Startup.cs" Line="1" Column="1" />
-      <File FileName="MicroRabbit.Banking.Api/Program.cs" Line="1" Column="1" />
+      <File FileName="MicroRabbit.Infra.Ioc/DependencyContainer.cs" Line="23" Column="76" />
+      <File FileName="MicroRabbit.Banking.Api/Program.cs" Line="17" Column="18" />
+      <File FileName="MicroRabbit.Banking.Domain/Models/Account.cs" Line="13" Column="9" />
+      <File FileName="MicroRabbit.Banking.Domain/Interfaces/IAccountRepository.cs" Line="9" Column="10" />
+      <File FileName="MicroRabbit.Banking.Data/Context/BankingDbContext.cs" Line="14" Column="1" />
+      <File FileName="MicroRabbit.Banking.Data/Repository/AccountRepository.cs" Line="19" Column="34" />
+      <File FileName="MicroRabbit.Banking.Application/Interfaces/IAccountService.cs" Line="8" Column="37" />
+      <File FileName="MicroRabbit.Banking.Application/Services/AccountService.cs" Line="19" Column="53" />
+      <File FileName="MicroRabbit.Banking.Api/appsettings.json" Line="9" Column="75" />
+      <File FileName="MicroRabbit.Banking.Api/Startup.cs" Line="67" Column="14" />
+      <File FileName="MicroRabbit.Infra.Ioc/MicroRabbit.Infra.Ioc.csproj" Line="1" Column="1" />
+      <File FileName="MicroRabbit.Banking.Data/MicroRabbit.Banking.Data.csproj" Line="19" Column="11" />
+      <File FileName="MicroRabbit.Banking.Domain/MicroRabbit.Banking.Domain.csproj" Line="17" Column="11" />
+      <File FileName="MicroRabbit.Banking.Api/Properties/launchSettings.json" Line="15" Column="39" />
+      <File FileName="MicroRabbit.Banking.Api/Controllers/BankingController.cs" Line="24" Column="54" />
+      <File FileName="MicroRabbit.Banking.Api/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="MicroRabbit.Banking.Api/MicroRabbit.Banking.Api.csproj" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -20,7 +32,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Microservices.Banking.Domain.MicroRabbit.Banking.Domain FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Microservices.Banking.Api.MicroRabbit.Banking.Api PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Microservices.Banking.Api.MicroRabbit.Banking.Api PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
