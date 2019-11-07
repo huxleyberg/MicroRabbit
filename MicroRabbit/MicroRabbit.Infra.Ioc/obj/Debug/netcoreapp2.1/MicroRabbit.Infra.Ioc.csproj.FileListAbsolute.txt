@@ -7,3 +7,8 @@
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.AssemblyInfo.cs
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.dll
 /Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.dll
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Domain.Core.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/bin/Debug/netcoreapp2.1/MicroRabbit.Infra.Bus.pdb
+/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Ioc/obj/Debug/netcoreapp2.1/MicroRabbit.Infra.Ioc.csproj.CopyComplete

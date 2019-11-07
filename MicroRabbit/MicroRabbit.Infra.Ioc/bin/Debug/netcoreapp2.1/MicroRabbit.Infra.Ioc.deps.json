@@ -1,17 +1,27 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "93ae021664ecc2e228f55d7e7aa66e40887b6c35"
+    "signature": "7cddc24e8d1d287fa32835b09cabedf674483622"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "MicroRabbit.Infra.Ioc/1.0.0": {
         "dependencies": {
+          "MicroRabbit.Domain.Core": "1.0.0",
+          "MicroRabbit.Infra.Bus": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "3.0.0"
         },
         "runtime": {
           "MicroRabbit.Infra.Ioc.dll": {}
+        }
+      },
+      "MediatR/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
         }
       },
       "Microsoft.Extensions.DependencyInjection/3.0.0": {
@@ -32,6 +42,41 @@
             "fileVersion": "3.0.19.46305"
           }
         }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "RabbitMQ.Client/5.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "MicroRabbit.Domain.Core/1.0.0": {
+        "dependencies": {
+          "MediatR": "7.0.0"
+        },
+        "runtime": {
+          "MicroRabbit.Domain.Core.dll": {}
+        }
+      },
+      "MicroRabbit.Infra.Bus/1.0.0": {
+        "dependencies": {
+          "MediatR": "7.0.0",
+          "MicroRabbit.Domain.Core": "1.0.0",
+          "Newtonsoft.Json": "12.0.2",
+          "RabbitMQ.Client": "5.1.2"
+        },
+        "runtime": {
+          "MicroRabbit.Infra.Bus.dll": {}
+        }
       }
     }
   },
@@ -40,6 +85,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MediatR/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YGFwy3pCM13K+s3nrSDjC/wP4AYSUt7+HLtgiPPRBe2bG1joeFdOq17YZ2Y1lc4lg+m9ew0dMcQHVn5yGH7uDA==",
+      "path": "mediatr/7.0.0",
+      "hashPath": "mediatr.7.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/3.0.0": {
       "type": "package",
@@ -54,6 +106,30 @@
       "sha512": "sha512-6XKLGN02w0LdhNIsrlDOl3Gfg5vts2bd/NGaj3SZ9J9pfkBAXg/KGVsDBqogExn1X2KGCxWNLLREStqEZKGJrg==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "RabbitMQ.Client/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VOnK4THfjIRF3ZvRzHHgpyaqXBeehP/QA+hC1LyUh2zwt2Uygo5gcZYBaKyLzm+ABcWPr5flWsf1JmutV77gAw==",
+      "path": "rabbitmq.client/5.1.2",
+      "hashPath": "rabbitmq.client.5.1.2.nupkg.sha512"
+    },
+    "MicroRabbit.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroRabbit.Infra.Bus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
