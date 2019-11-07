@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "MediatR/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -228,10 +237,69 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RabbitMQ.Client/5.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        }
+      },
+      "MicroRabbit.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "MediatR": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroRabbit.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroRabbit.Domain.Core.dll": {}
+        }
+      },
+      "MicroRabbit.Infra.Bus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "MediatR": "7.0.0",
+          "MicroRabbit.Domain.Core": "1.0.0",
+          "Newtonsoft.Json": "12.0.2",
+          "RabbitMQ.Client": "5.1.2"
+        },
+        "compile": {
+          "bin/placeholder/MicroRabbit.Infra.Bus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroRabbit.Infra.Bus.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MediatR/7.0.0": {
+      "sha512": "YGFwy3pCM13K+s3nrSDjC/wP4AYSUt7+HLtgiPPRBe2bG1joeFdOq17YZ2Y1lc4lg+m9ew0dMcQHVn5yGH7uDA==",
+      "type": "package",
+      "path": "mediatr/7.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net461/MediatR.dll",
+        "lib/netstandard2.0/MediatR.dll",
+        "mediatr.7.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection/3.0.0": {
       "sha512": "Vwwbb48l24tLwLBDkvxY47y3e744Dw21GcE6AcMEh4/qv8nyZ7cO6jCClMrows6lFx/Kz2+YWK3yFBwAGFIHKg==",
       "type": "package",
@@ -729,10 +797,67 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/5.1.2": {
+      "sha512": "VOnK4THfjIRF3ZvRzHHgpyaqXBeehP/QA+hC1LyUh2zwt2Uygo5gcZYBaKyLzm+ABcWPr5flWsf1JmutV77gAw==",
+      "type": "package",
+      "path": "rabbitmq.client/5.1.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net451/RabbitMQ.Client.dll",
+        "lib/net451/RabbitMQ.Client.xml",
+        "lib/netstandard1.5/RabbitMQ.Client.dll",
+        "lib/netstandard1.5/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.5.1.2.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+    "MicroRabbit.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj",
+      "msbuildProject": "../MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj"
+    },
+    "MicroRabbit.Infra.Bus/1.0.0": {
+      "type": "project",
+      "path": "../MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj",
+      "msbuildProject": "../MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "MicroRabbit.Domain.Core >= 1.0.0",
+      "MicroRabbit.Infra.Bus >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 3.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
@@ -764,7 +889,14 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj": {
+              "projectPath": "/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Domain.Core/MicroRabbit.Domain.Core.csproj"
+            },
+            "/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj": {
+              "projectPath": "/Users/chidi/Documents/MicroRabbit/MicroRabbit/MicroRabbit/MicroRabbit.Infra.Bus/MicroRabbit.Infra.Bus.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
